@@ -410,7 +410,7 @@ cscript /nologo %windir%\system32\slmgr.vbs -ipk %key%
 
 echo Press any key to continue...
 pause >nul
-goto:OtherOptions
+goto:Close
 ::===============================================================================================================
 :Close
 exit
